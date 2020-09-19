@@ -1,16 +1,8 @@
+/* GROLBAL */
 body {
     background-color: #eff0f3;
     color: #2a2a2a;
-}
-
-header {
-    background-color: #2a2a2a
-}
-
-header h1 {
-    color: #ff8e3c;
-    margin: 0;
-    padding: .5px;
+    font-family: "M PLUS Rounded 1c";
 }
 
 h2 {
@@ -18,21 +10,59 @@ h2 {
     margin: 0;
 }
 
-.container {
-    margin: 5% 15%;
+.content {
+    padding: 30px;
 }
 
-#profile {
-    border: #e00d0d;
-    border-style: dotted;
-    padding: 5%;
-    width: 40%;
+.container {
+    margin: 5% 15%;
+    height: 1000px;
+}
+
+/* HEADER */
+header {
+    background-color: #2a2a2a
+}
+
+header h1 {
+    color: #ff8e3c;
+    margin: 0 0 0 10px;
+    padding: 1px;
+}
+/* PROFILE */
+
+.profile {
+    background-color: #fffffe;
+    width: 48%;
+    height: 215px;
     float: left;
 }
 
-#tips {
-    background-color: dodgerblue;
-    width: 50%;
-    margin: 50%;
+.picture {
+    float: left;
+    margin-right: 5%;
 }
 
+.content .description {
+    margin-right: 5%;
+}
+
+/* TIPS */
+.tips {
+    width: 50%;
+    height: 1000px;
+    margin: auto 50%;
+}
+
+.card {
+    height: 215px;
+    background-color: #fffffe;
+    border-radius: 2%;
+}
+
+.title .description {
+    margin-top: 5%;
+}
+script {
+    clear: left;
+}
