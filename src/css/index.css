@@ -48,7 +48,7 @@ header h1 {
 }
 
 /* TIPS */
-.tips {
+#tips {
     width: 50%;
     height: 1000px;
     margin: auto 50%;
@@ -58,6 +58,7 @@ header h1 {
     height: 215px;
     background-color: #fffffe;
     border-radius: 2%;
+    margin-bottom: 5%;
 }
 
 .title .description {
