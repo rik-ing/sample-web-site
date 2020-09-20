@@ -61,9 +61,10 @@ header h1 {
     margin-bottom: 5%;
 }
 
-.title .description {
+.content .description {
     margin-top: 5%;
 }
+
 script {
     clear: left;
 }
