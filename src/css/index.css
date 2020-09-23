@@ -1,10 +1,10 @@
 /* GROLBAL */
 body {
-    background-color: #eff0f3;
-    color: #2a2a2a;
-    font-family: "M PLUS Rounded 1c";
-    height: 100%;
-    overflow: hidden;
+    background-color: #eff0f3; /* body要素の背景色を#eff0f3に設定する */
+    color: #2a2a2a; /* body要素内の文字色を#2a2a2aに設定する */
+    font-family: "M PLUS Rounded 1c"; /* body要素内の文字スタイルを"M PLUS Rounded 1c"に設定する */
+    height: 100%; /* body要素の範囲を画面いっぱいに設定する */
+    overflow: hidden;/* body要素のスクロール処理を外すように設定する */
 }
 
 h2 {
@@ -31,13 +31,14 @@ header h1 {
     margin: 0 0 0 10px;
     padding: 1px;
 }
-/* PROFILE */
 
+/* PROFILE */
 .profile {
     background-color: #fffffe;
     width: 48%;
     height: 215px;
     float: left;
+    border-radius: 2%;
 }
 
 .picture {
@@ -46,7 +47,7 @@ header h1 {
 }
 
 .content .description {
-    margin-right: 5%;
+    margin: 0%;
 }
 
 /* TIPS */
@@ -71,3 +72,5 @@ header h1 {
 script {
     clear: left;
 }
+
+@media
