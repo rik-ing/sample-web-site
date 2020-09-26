@@ -39,9 +39,8 @@ header h1 {
     border-radius: 2%;
 }
 
-.picture {
-    float: left;
-    margin-right: 5%;
+.thumbnail {
+    height: 100px;
 }
 
 .content .description {

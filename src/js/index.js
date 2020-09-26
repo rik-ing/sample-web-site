@@ -34,6 +34,7 @@ var title_header;
 var description;
 var description_text;
 
+
 for(var i = 0; i < sample_json.length; i++) {
     card = document.createElement('div'); 
     card.setAttribute('class', 'card');
